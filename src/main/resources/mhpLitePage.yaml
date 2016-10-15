@@ -1,0 +1,41 @@
+pageId: mhplite
+tilesDefinitionName: "mhp.lite"
+attributes: 
+ - 
+   name: "page.attribute.name1"
+   type: String
+   value: "Hello MHP Lite World"
+
+modules: 
+ - 
+   moduleId: "module-1"
+   modulePath: "/WEB-INF/jsp/page/portal/mhp/mhpLiteModule-1.jsp"
+   attributes: 
+   - 
+    name: "module1.greeting"
+    type: String
+    value: "Hello Module-1 World"
+ - 
+   moduleId: "module-2"
+   modulePath: "/WEB-INF/jsp/page/portal/mhp/mhpLiteModule-2.jsp"
+   attributes: 
+    - 
+     name: "module2.greeting"
+     type: String
+     value: "Hello Module-2 World"
+ - 
+   moduleId: "module-3"
+   modulePath: "/WEB-INF/jsp/page/portal/mhp/mhpLiteModule-3.jsp"
+   attributes: 
+    - 
+     name: "module3.greeting"
+     type: String
+     value: "Hello Module-3 World"
+    - 
+     name: "module3.selection"
+     type: List
+     value: 
+      - choice1
+      - choice2
+      - choice3
+     

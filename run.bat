@@ -1,0 +1,1 @@
+java -jar target/mhpService-1.0-SNAPSHOT.jar

@@ -1,0 +1,10 @@
+name: mhpServiceDeployer
+description: Deploys webApp resources
+inputJar: C:\work\mhpService\target\mhpService-1.0-SNAPSHOT.jar
+tasks:
+ - 
+   name: jsp
+   taskType: copy
+   sourceDir: BOOT-INF/classes/WEB-INF/jsp/page/portal/mhp/
+   targetDir: C:\work\czen\app\src\main\webapp.war\WEB-INF\jsp\page\portal\mhp\
+     
