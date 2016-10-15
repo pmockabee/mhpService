@@ -25,8 +25,8 @@ repositories {
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
-buildDir = 'target'
 libsDirName = '.'
+buildDir = 'target'
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
